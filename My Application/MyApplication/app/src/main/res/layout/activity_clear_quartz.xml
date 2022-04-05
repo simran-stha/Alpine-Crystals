@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClearQuartz"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        android:layout_marginTop="0.207in"
+        android:text="Meaning of Clear Quartz"
+        android:fontFamily="@font/daniel"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headline"
+        android:layout_marginTop="0.1in"
+        android:layout_marginRight="20dp"
+        android:drawableTop="@drawable/c"
+        android:paddingLeft="10dp"
+        android:paddingRight="200dp" />
+
+    <TextView
+        android:id="@+id/meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c"
+        android:text="Clear Quartz is considered as the 'Master Healer'. It helps to increase one's concentration. helps in medidation and energizes other crystals"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/benefits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meaning"
+        android:layout_marginLeft="0.2in"
+        android:layout_marginTop="15dp"
+        android:text="Benefits"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/benefit"
+        android:layout_below="@id/benefits"
+        android:text="- Helps to increase concentration"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b"
+        android:layout_below="@id/benefit"
+        android:text="- Helps to charge other crystals"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc"
+        android:layout_below="@id/b"
+        android:text="- Spreads positivity in it's surrounding"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/cleanse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cc"
+        android:layout_marginLeft="0.2in"
+        android:layout_marginTop="15dp"
+        android:text="Ways to cleanse"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cleanse"
+        android:text="@string/text_with_paragraphs"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>

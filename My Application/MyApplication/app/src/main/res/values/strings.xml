@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="text_with_paragraphs">
+        <br>
+        - Soak it in salt water overnight.
+        </br>
+        <br>
+        - Rinse it with water and let it pat dry.
+        </br>
+        - Place smaller crystals on the top of large clusters for a couple of hour.
+        <br>
+        - Set your crystal out before nightfall and bring it in before 11 a.m.
+</br>
+    </string>
+</resources>
